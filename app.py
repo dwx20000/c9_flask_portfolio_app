@@ -21,7 +21,7 @@ def profile(name):
 
 
 @app.route('/mutiply_numbers', methods=['GET','POST'])
-def _multiply_numbers_post():
+def multiply_numbers_post():
 	  # --> ['5', '6', '8']
 	  # print(type(request.form['text']))
 	  if request.method == 'GET':
